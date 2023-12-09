@@ -33,12 +33,13 @@ Task Ahead: To create a fun and social app that friends can use to help keep eac
 
 Explain the high-level architecture of your application. Include information on the components, modules, and their interactions. Diagrams can be helpful to visualize the architecture.
 
-Original Wireframe UI I based the design of
+### a) Original Wireframe UI I based the design of
+<img height="500" width="1000" position ="center" alt="image" src="https://github.com/soccermaganti/CS326FinalProject/assets/87458991/91cb3bb3-2475-4df6-a5e2-17b3786bb2cf">
 
 
 
-Current implementation
-<img width="1439" alt="image" src="https://github.com/soccermaganti/CS326FinalProject/assets/87458991/49d4c159-f062-4d10-9821-55684134aa46">
+### b) Current implementation
+<img height="500" width="1000" position ="center" alt="image" src="https://github.com/soccermaganti/CS326FinalProject/assets/87458991/49d4c159-f062-4d10-9821-55684134aa46">
 
 
 ## 4. Installation <a name="installation"></a>
