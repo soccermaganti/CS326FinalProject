@@ -1,6 +1,4 @@
-# CS326FinalProject
-
-# Project Documentation
+# CS 326 Final Project Documentation
 
 ## Table of Contents
 1. [Introduction](#introduction)
