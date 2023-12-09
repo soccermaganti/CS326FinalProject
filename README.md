@@ -13,15 +13,33 @@
 
 ## 1. Introduction <a name="introduction"></a>
 
-Provide a brief overview of your project. Include its purpose, goals, and any relevant background information. Mention the target audience for the documentation.
+Goal: To create an application that can help college students with tasks and make sure they stay on track to complete them. This is important because there are lots of people around the world that could use this to stay on track why else would they go to college if they only wanted to fail? It would be designed somewhat like the reminder app but with a social aspect to it and you can also have your own private tasks as well.
+
+Task Ahead: To create a fun and social app that friends can use to help keep each other motivated. On each other’s profiles, they’ll have their list of things to do and people can leave comments below to give them some healthy reminders that they have things to do. Can also create a home page based on people you follow so it would be like an Instagram sort of design and on this home page, they can post any achievements that they got due to completing previous tasks. The tasks they complete will be output in a tree hierarchical order so everyone can see the process they took to achieve the result. Users can also read and comment on the post. 
+
 
 ## 2. Key Features <a name="key-features"></a>
 
-List and briefly describe the key features of your application. This section should give users a quick understanding of what your project can accomplish.
+1) Managing current daily tasks that need to be completed
+
+3) Creating a hub for friends to post their current achievements and any messages they want to put publically
+
+4) A competitive atmosphere to complete tasks as there is a leaderboard to track points earned by friends
+
+5) Achievement-based system where individual accounts will be given certain trophies depending on their current number of tasks completed or points earned.
+
 
 ## 3. Architecture <a name="architecture"></a>
 
 Explain the high-level architecture of your application. Include information on the components, modules, and their interactions. Diagrams can be helpful to visualize the architecture.
+
+Original Wireframe UI I based the design of
+
+
+
+Current implementation
+<img width="1439" alt="image" src="https://github.com/soccermaganti/CS326FinalProject/assets/87458991/49d4c159-f062-4d10-9821-55684134aa46">
+
 
 ## 4. Installation <a name="installation"></a>
 
