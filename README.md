@@ -33,6 +33,16 @@ Task Ahead: To create a fun and social app that friends can use to help keep eac
 
 Explain the high-level architecture of your application. Include information on the components, modules, and their interactions. Diagrams can be helpful to visualize the architecture.
 
+1) **Home Page**
+   - This page links together the whole website as most of the events happen here.
+   - **Task box**: I implemented this box by essentially creating an area where any tasks you add are put here. On the left side you can see that there is an entry form which takes in your input and then displays it within the task box. I added the y-overflow feature so that if the tasks take up more space on the screen it allows for you to scroll down.
+   - **Task Achievement Page**: This section is where users can post their achievements or anything they would like to say to all the accounts that are friends with the user. By pressing previous or next you can switch between posts and currently comments needs to be implemented if there is time.
+   - **Calendar**: Gives brief insight into the current time and date as well as the weather in Boston, Ma but can be changed to whatever you want.
+
+2) **Point System**
+- **Competitive Nature**: This is important because 
+
+
 ### a) Original Wireframe UI I based the design of
 <img height="500" width="1000" position ="center" alt="image" src="https://github.com/soccermaganti/CS326FinalProject/assets/87458991/91cb3bb3-2475-4df6-a5e2-17b3786bb2cf">
 
