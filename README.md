@@ -68,10 +68,10 @@ Provide step-by-step instructions for setting up the project locally. Include co
 
 ```bash
 # Example Installation Steps
-1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
-2. Navigate to the project directory: `cd your-project`
+1. Clone the repository: `git clone https://github.com/soccermaganti/CS326FinalProject.git`
+2. Navigate to the project directory: `cd CS326FinalProject`
 3. Install dependencies: `npm install`
-4. ...
+4. Start the localhost server by doing node server/app.js and then open it up in your browser
 ```
 
 ## 5. Configuration <a name="configuration"></a>
@@ -89,14 +89,31 @@ Explain how users can configure the application. This includes environment varia
 
 ## 6. Database Setup <a name="database-setup"></a>
 
-Provide instructions for setting up and connecting to the chosen database system. Include any necessary scripts or commands for database initialization.
-
 ```bash
 # Example Database Setup
 1. Install PostgreSQL: `sudo apt-get install postgresql`
-2. Create a new database: `createdb your_database_name`
-3. Run database migrations: `npm run migrate`
-4. ...
+2. Login with your account information and then create 3 new databases: `CREATE DATABASE logininfo, CREATE DATABASE postfeed, CREATE DATABASE taskdb`
+3.  Switch into each respective database and create tables with these commands:
+- CREATE TABLE tasks (
+    id SERIAL PRIMARY KEY,
+    text VARCHAR(255) NOT NULL,
+    month INTEGER DEFAULT 0,
+    day INTEGER DEFAULT 0,
+    completed BOOLEAN DEFAULT false,
+    userid VARCHAR(255) NOT NULL
+);
+- CREATE TABLE logininfo (
+    UserID SERIAL PRIMARY KEY,
+    Username VARCHAR(255) NOT NULL,
+    Password VARCHAR(255) NOT NULL
+);
+- CREATE TABLE posts (
+    post_id SERIAL PRIMARY KEY,
+    content TEXT,
+    comments TEXT[]
+);
+4. Grant all permissions to the user to perform actions on the databases. username is your PostgreSQL username
+- GRANT ALL PRIVILEGES ON DATABASE yourdatabase TO youruser;
 ```
 
 ## 7. Usage Instructions <a name="usage-instructions"></a>
