@@ -1,4 +1,4 @@
-# CS 326 Final Project Documentation
+# Competitive Task Manager Documentation
 
 ## Table of Contents
 1. [Introduction](#introduction)
