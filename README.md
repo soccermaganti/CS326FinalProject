@@ -138,5 +138,5 @@ Make sure all naming conventions are accurate when making database and tables ot
 
 ## 9. Conclusion <a name="conclusion"></a>
 
-In summary, the Competitive Task Manager is a dynamic application that is designed to target college students' motivation by creating a competitive environment. The documentation above provides instructions to install, configure, and set up the database. Users can easily manage their tasks, share any achievements they have, and be a part of some friendly competition. I aim to create a positive and collaborative environment for everyone to succeed in their academic journey.
+Summarizing it all together, the Competitive Task Manager is a dynamic application that is designed to target college students' motivation by creating a competitive environment. The documentation above provides instructions to install, configure, and set up the database. Users can easily manage their tasks, share any achievements they have, and be a part of some friendly competition. I aim to create a positive and collaborative environment for everyone to succeed in their academic journey.
 
