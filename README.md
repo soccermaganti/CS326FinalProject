@@ -105,7 +105,8 @@ Explain how users can configure the application. This includes environment varia
 - CREATE TABLE logininfo (
     UserID SERIAL PRIMARY KEY,
     Username VARCHAR(255) NOT NULL,
-    Password VARCHAR(255) NOT NULL
+    Password VARCHAR(255) NOT NULL,
+    totalpoints INTEGER
 );
 - CREATE TABLE posts (
     post_id SERIAL PRIMARY KEY,
