@@ -71,7 +71,7 @@ Provide step-by-step instructions for setting up the project locally. Include co
 1. Clone the repository: `git clone https://github.com/soccermaganti/CS326FinalProject.git`
 2. Navigate to the project directory: `cd CS326FinalProject`
 3. Install dependencies: `npm install`
-4. Start the localhost server by doing node server/app.js and then open it up in your browser
+4. Start the localhost server by doing node server/app.js and then open it up in your browser (node HomePage/app.js)
 ```
 
 ## 5. Configuration <a name="configuration"></a>
