@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>My Profile</title>
+</head>
+<body>
+    
+    <div class="profile-container">
+        <img src="Screenshot 2023-12-03 at 12.59.37 PM.png" alt="Profile Picture" class="profile-picture">
+        <div class="profile-details">
+            <h1 id="name"></h1>
+            <p id="bio"></p>
+            <p id=points></p>
+            <div>
+                <label for="newName">New Name:</label>
+                <input type="text" id="newName" placeholder="Enter new name">
+            </div>
+            <div>
+                <label for="newBio">New Bio:</label>
+                <input type="text" id="newBio" placeholder="Enter new bio">
+            </div>
+            <button onclick="updateProfile()">Update Profile</button>
+            <button id="delete">Delete Profile</button>
+            <button id = 'home'>Go back Home</button>
+            <button id = 'logout'>Log out</button>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>

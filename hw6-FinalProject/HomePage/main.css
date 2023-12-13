@@ -1,0 +1,231 @@
+/* Title of the whole page */
+#Title {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10;
+}
+
+#profile, #logout {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    position: absolute;
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+#profile {
+    right: 6%;
+}
+
+#logout {
+    right: 1%;
+}
+
+
+
+/* For the motivational image */
+#topMotivation {
+    position: absolute;
+    right: 30%;
+}
+
+/* For the top bar that includes friends */
+.horizontal-bar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #3498db;
+    justify-content: center;
+}
+
+.vertical-bar {
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 200;
+    background-color: lightgreen;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#calendar {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#bonus,
+#friends,
+#achievements,
+#messages {
+    margin: 0 10px;
+    color: #fff;
+}
+
+#rewards, 
+#Notifications,
+#news {
+    margin-top: 5%;
+    display: block;
+}
+
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: lightgrey;
+    overflow: hidden; 
+}
+
+
+.content-wrapper {
+    display: flex;
+}
+
+/* Task box styles */
+#taskBox {
+    max-height: 400px; 
+    overflow-y: auto;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#taskForm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.feed {
+    position: relative; 
+    overflow-y: auto;
+    height: 400px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+}
+
+#prevBtn,
+#nextBtn {
+    position: absolute;
+    bottom: 10px;
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+/* Comment Section */
+#commentInput {
+    position: absolute;
+    bottom: 2%; 
+    margin-left: 25%;
+    width: 25%;
+    padding: 10px;
+}
+
+.comment-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#addCommentBtn {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    bottom: 1%;
+    margin-left: 57%;
+    position: absolute;
+}
+
+#newPost {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    bottom: 9%;
+    margin-left: 57%;
+    position: absolute;
+}
+
+/* Post Content */
+.post-content {
+    margin-bottom: 20px;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+.current-date {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }

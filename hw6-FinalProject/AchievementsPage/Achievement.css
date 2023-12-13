@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.achievement {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.achievement img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px; 
+}
+
+#home, #logout {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    position: absolute;
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 5px;
+  }
+  
+  #home {
+    right: 6%;
+  }
+  
+  #logout {
+    right: 1%;
+  }

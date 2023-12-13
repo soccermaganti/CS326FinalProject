@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="friends.css">
+    <title>Friends List</title>
+</head>
+<body>
+    <div>
+        <button id = 'home'>Go back Home</button>
+        <button id = 'logout'>Log out</button>
+    </div>
+    <div class="container">
+        <h1>My Friends</h1>
+        <ul id="friends-list"></ul>
+        <div>
+            <input type="text" id="friendName" placeholder="Enter friend's name">
+            <button onclick="addFriend()">Add Friend</button>
+            <button onclick="deleteFriend()">Delete Friend</button>
+        </div>
+    </div>
+    <script src="friends.js"></script>
+</body>
+</html>

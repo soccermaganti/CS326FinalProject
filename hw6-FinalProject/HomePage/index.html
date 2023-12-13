@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <span id="profile">Your Profile</span>
+    <span id="logout">Logout</span>
+    <img id="topMotivation" src="inspirational_motivational-wallpaper-2560x1024.jpg" height="100" width="500">
+    <h2 id="Title">Competitive Task Manager</h2>
+    <div class="horizontal-bar">
+        <p id="bonus">
+            <img src="334432-200.png" class="icon">
+            Point System
+        </p>
+        <p id="friends">
+            <img src="880594.png" class="icon">
+            Friends
+        </p>
+        <p id="achievements">
+            <img src="4387887.png" class="icon">
+            Achievements
+        </p>
+        <p id="messages">
+            <img src="3158179.png" class="icon">
+            Messages
+        </p>
+    </div>
+    <div class="content-wrapper">
+        <form id="taskForm">
+            <div>
+                <label for="taskInput">Add Task:</label>
+                <input type="text" id="taskInput" placeholder="Enter your task">
+            </div>
+            <div>
+                <label for = "taskMonth">Month?</label>
+                <input type="number" id="taskMonth" placeholder="Enter month number:">
+            </div>
+            <div>
+                <label for = "taskDay">Day?</label>
+                <input type="number" id="taskDay" placeholder="Enter day number:">
+            </div>
+        
+            <div>
+                <button type="button" onclick="addTask()">Add</button>
+            </div>
+        </form>
+        <div id="taskBox">
+            <h3 style="text-align: center;">Task Box</h3>
+            <ul id="taskList"></ul>
+        </div>
+        
+        <div class="feed">
+            <h2 style="text-align: center;">Task Achievement Page</h2>
+            <div class="content">
+            </div>
+            <div class="buttons">
+                <button id="prevBtn">Previous</button>
+                <button id="nextBtn">Next</button>
+            </div>
+            <div class="add-comment">
+                <input type="text" id="commentInput" placeholder="Add a comment...">
+                <button id="newPost">New Post</button>
+                <button id="addCommentBtn">Add Comment</button>
+            </div>
+        </div>
+        
+        <div class = "vertical-bar">
+            <p id = "rewards">
+               Rewards 
+            </p>
+            <p id = "news">
+                News
+            </p>
+            <p id = "Notifications">
+                Notifications
+            </p>
+        </div>
+        <div id="calendar">
+            <h3>Calendar</h3>
+            <p id="currentDate"></p>
+            <p>
+                <div id = weather-container></div>
+            </p>
+        </div>
+        
+    </div>
+    
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
