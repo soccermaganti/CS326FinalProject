@@ -68,11 +68,11 @@ Task Ahead: To create a fun and social app that friends can use to help keep eac
 ### Steps to Download and Install Project
 
 ```bash
-# Example Installation Steps
+# Installation Steps
 1. Clone the repository: `git clone https://github.com/soccermaganti/CS326FinalProject.git` or download the zip file instead
 2. Navigate to the project directory: `cd hw6-FinalProject`
-3. Install dependencies in following order: `npm install`, `npm install express`, `npm install morgan`, 
-4. Start the localhost server by doing node node HomePage/app.js and then open it up in your browser 
+3. Install dependencies in the following order: `npm install`, `npm install express`, `npm install morgan`, 
+4. Start the localhost server by doing node HomePage/app.js and then open it up in your browser 
 ```
 
 ## 5. Configuration <a name="configuration"></a>
@@ -84,7 +84,7 @@ Make sure all naming conventions are accurate when making database and tables ot
 ## 6. Database Setup <a name="database-setup"></a>
 
 ```bash
-# Example Database Setup
+# Database Setup
 1. Install PostgreSQL: `sudo apt-get install postgresql`
 2. Login with your account information and then create 3 new databases: `CREATE DATABASE logininfo, CREATE DATABASE postfeed, CREATE DATABASE taskdb`
 3. Switch into each respective database and create tables with these commands:
