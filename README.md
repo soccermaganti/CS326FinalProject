@@ -42,6 +42,7 @@ Task Ahead: To create a fun and social app that friends can use to help keep eac
 - **Leaderboard**: This ranks users currently in the system by their points and then puts them in order. Your current rank is associated with certain achievements depending on where you are.
 
 3) **Your Profile and Information**
+
 - **Login Database**: Your profile is stored within a PostgreSQL database that has most of your information like point count for example. Username and password are also stored here and this allows for different profiles to be made. Each profile is given a unique_id which is the username that the person makes at account creation. This unique_id is what allows this app to be able to be used by multiple people and keep information separate. Tasks created by one user will not be shown to another who logs into their own account. 
 
 
@@ -51,7 +52,8 @@ Task Ahead: To create a fun and social app that friends can use to help keep eac
 
 
 ### b) Current implementation
-<img height="500" width="1000" position ="center" alt="image" src="https://github.com/soccermaganti/CS326FinalProject/assets/87458991/49d4c159-f062-4d10-9821-55684134aa46">
+<img height="500" width="1000" position ="center"  alt="image" src="https://github.com/soccermaganti/CS326FinalProject/assets/87458991/026f93c5-b1b9-458f-8676-2b6918729755">
+
 
 
 ## 4. Installation <a name="installation"></a>
@@ -62,9 +64,7 @@ Task Ahead: To create a fun and social app that friends can use to help keep eac
 2) Express.JS
 3) PostgreSQL and/or PGadmin
 
-### Steps
-
-Provide step-by-step instructions for setting up the project locally. Include commands, configurations, and any special considerations. This section should help users get the application up and running quickly.
+### Steps to Download and install Project
 
 ```bash
 # Example Installation Steps
@@ -76,15 +76,8 @@ Provide step-by-step instructions for setting up the project locally. Include co
 
 ## 5. Configuration <a name="configuration"></a>
 
-Explain how users can configure the application. This includes environment variables, configuration files, or any settings that need to be adjusted for the application to work correctly.
-
 ```bash
-# Example Configuration
-1. Create a `.env` file in the project root.
-2. Add the following environment variables:
-   - `DATABASE_URL=your_database_connection_string`
-   - `API_KEY=your_api_key`
-3. Save the file.
+Make sure all naming conventions are accurate when making database and tables otherwise it won't work.
 ```
 
 ## 6. Database Setup <a name="database-setup"></a>
@@ -119,13 +112,31 @@ Explain how users can configure the application. This includes environment varia
 
 ## 7. Usage Instructions <a name="usage-instructions"></a>
 
-Explain how users can interact with the application. Include information on commands, API endpoints, or any user interfaces. Provide examples to illustrate typical use cases.
+1) Adding Tasks
+- Put your task text content into the first box and then add the day and month. It will then add that information to the database and display it in the box.
+- Can delete a task by pressing the delete button and it deletes that task using your specific username
+- Mark it as completed and it will update it to true
+- Reload the page and it will load the tasks based on your username
+
+2) Adding Task Achievements
+  - When you first log in, it will load any posts from the database
+  - You can add posts by pressing the add post Button after putting in some content. Currently, it doesn't differentiate between user to user so you have to add your name at the end like this for example. Ex. "Bought my first house - Sri"
+  - Can switch between posts using the previous and next buttons
+  - This information loads the same for all accounts so everyone can see the information you post on there.
+
+3) Logging in
+ - Need to create your own login information and then log in using that. It won't let you into the application if you don't.
+ - The system uses unique usernames so you can't share the same username as someone else or it will alert you with an error
+ - Make sure to use a strong password!
 
 ## 8. Troubleshooting <a name="troubleshooting"></a>
 
-List common issues users might encounter and provide solutions. Include error messages, logs, or any other relevant information that can help users troubleshoot problems.
+1) Database setup
+- Make sure naming conventions are correct and create the database correctly. Need to have all the necessary columns otherwise it won't work. I provided the SQL above.
+
+2) Comments don't work currently so don't press it.
 
 ## 9. Conclusion <a name="conclusion"></a>
 
-Summarize the key points covered in the documentation. Encourage users to reach out for support or contribute to the project.
+In summary, the Competitive Task Manager is a dynamic application that is designed to target college students' motivation by creating a competitive environment. The documentation above provides instructions to install, configure, and set up the database. Users can easily manage their tasks, share any achievements they have, and be a part of some friendly competition. I aim to create a positive and collaborative environment for everyone to succeed in their academic journey.
 
