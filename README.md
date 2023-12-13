@@ -1,4 +1,4 @@
-# Competitive Task Manager Documentation and video Explanation link here => [Link]([url](https://drive.google.com/file/d/1Vt5q-zswQcwNHagzlnZ92aLfo7BDvpwM/view?usp=sharing))
+# Competitive Task Manager Documentation
 
 ## Table of Contents
 1. [Introduction](#introduction)
