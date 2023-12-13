@@ -10,7 +10,7 @@
 7. [Usage Instructions](#usage-instructions)
 8. [Troubleshooting](#troubleshooting)
 9. [Conclusion](#conclusion)
-10. [Idea Creation](#Ideas)
+10. [Idea Creation](#ideas)
 
 ## 1. Introduction <a name="introduction"></a>
 
@@ -141,7 +141,7 @@ Make sure all naming conventions are accurate when making database and tables ot
 
 Summarizing it all together, the Competitive Task Manager is a dynamic application that is designed to target college students' motivation by creating a competitive environment. The documentation above provides instructions to install, configure, and set up the database. Users can easily manage their tasks, share any achievements they have, and be a part of some friendly competition. I aim to create a positive and collaborative environment for everyone to succeed in their academic journey.
 
-## 10. Ideas I had when creating the Project and the step-by-step things I did to implement them (Pretty informal idea creation) <a name='Ideas"></a>
+## 10. Ideas I had when creating the Project and the step-by-step things I did to implement them (Pretty informal idea creation) <a name="ideas"></a>
 
 1. Basically need to create the calendar and then based on the day of the calendar, I’ll create preset bonus days based on the day. (Completed)
 
