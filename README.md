@@ -70,8 +70,8 @@ Task Ahead: To create a fun and social app that friends can use to help keep eac
 # Example Installation Steps
 1. Clone the repository: `git clone https://github.com/soccermaganti/CS326FinalProject.git`
 2. Navigate to the project directory: `cd CS326FinalProject`
-3. Install dependencies: `npm install`
-4. Start the localhost server by doing node server/app.js and then open it up in your browser (node HomePage/app.js)
+3. Install dependencies in following order: `npm install`, `npm install express`, `npm install morgan`, 
+4. Start the localhost server by doing node node HomePage/app.js and then open it up in your browser 
 ```
 
 ## 5. Configuration <a name="configuration"></a>
@@ -86,7 +86,7 @@ Make sure all naming conventions are accurate when making database and tables ot
 # Example Database Setup
 1. Install PostgreSQL: `sudo apt-get install postgresql`
 2. Login with your account information and then create 3 new databases: `CREATE DATABASE logininfo, CREATE DATABASE postfeed, CREATE DATABASE taskdb`
-3.  Switch into each respective database and create tables with these commands:
+3. Switch into each respective database and create tables with these commands:
 - CREATE TABLE tasks (
     id SERIAL PRIMARY KEY,
     text VARCHAR(255) NOT NULL,
@@ -112,29 +112,29 @@ Make sure all naming conventions are accurate when making database and tables ot
 
 ## 7. Usage Instructions <a name="usage-instructions"></a>
 
-1) Adding Tasks
+1) **Adding Tasks**
 - Put your task text content into the first box and then add the day and month. It will then add that information to the database and display it in the box.
 - Can delete a task by pressing the delete button and it deletes that task using your specific username
 - Mark it as completed and it will update it to true
 - Reload the page and it will load the tasks based on your username
 
-2) Adding Task Achievements
+2) **Adding Task Achievements**
   - When you first log in, it will load any posts from the database
   - You can add posts by pressing the add post Button after putting in some content. Currently, it doesn't differentiate between user to user so you have to add your name at the end like this for example. Ex. "Bought my first house - Sri"
   - Can switch between posts using the previous and next buttons
   - This information loads the same for all accounts so everyone can see the information you post on there.
 
-3) Logging in
+3) **Logging in**
  - Need to create your own login information and then log in using that. It won't let you into the application if you don't.
  - The system uses unique usernames so you can't share the same username as someone else or it will alert you with an error
  - Make sure to use a strong password!
 
 ## 8. Troubleshooting <a name="troubleshooting"></a>
 
-1) Database setup
+1) **Database setup**
 - Make sure naming conventions are correct and create the database correctly. Need to have all the necessary columns otherwise it won't work. I provided the SQL above.
 
-2) Comments don't work currently so don't press it.
+2) **Comments don't work currently so don't press it.**
 
 ## 9. Conclusion <a name="conclusion"></a>
 
