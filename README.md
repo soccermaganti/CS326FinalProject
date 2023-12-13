@@ -46,7 +46,7 @@ Task Ahead: To create a fun and social app that friends can use to help keep eac
 - **Login Database**: Your profile is stored within a PostgreSQL database that has most of your information like point count for example. Username and password are also stored here and this allows for different profiles to be made. Each profile is given a unique_id which is the username that the person makes at account creation. This unique_id is what allows this app to be able to be used by multiple people and keep information separate. Tasks created by one user will not be shown to another who logs into their own account. 
 
 
-### a) Original Wireframe UI I based the design of
+### a) Original Wireframe UI I based the design off of
 <img height="500" width="1000" position ="center" alt="image" src="https://github.com/soccermaganti/CS326FinalProject/assets/87458991/91cb3bb3-2475-4df6-a5e2-17b3786bb2cf">
 
 
