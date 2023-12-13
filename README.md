@@ -68,8 +68,8 @@ Task Ahead: To create a fun and social app that friends can use to help keep eac
 
 ```bash
 # Example Installation Steps
-1. Clone the repository: `git clone https://github.com/soccermaganti/CS326FinalProject.git`
-2. Navigate to the project directory: `cd CS326FinalProject`
+1. Clone the repository: `git clone https://github.com/soccermaganti/CS326FinalProject.git` or download the zip file instead
+2. Navigate to the project directory: `cd hw6-FinalProject`
 3. Install dependencies in following order: `npm install`, `npm install express`, `npm install morgan`, 
 4. Start the localhost server by doing node node HomePage/app.js and then open it up in your browser 
 ```
