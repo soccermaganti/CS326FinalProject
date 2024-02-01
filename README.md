@@ -114,6 +114,7 @@ Make sure all naming conventions are accurate when making database and tables ot
 ## 7. Usage Instructions <a name="usage-instructions"></a>
 
 1) **Adding Tasks**
+  CRUD Operations - Create, Read, Update, Delete (This is how I implemented that in this project)
 - Put your task text content into the first box and then add the day and month. It will then add that information to the database and display it in the box.
 - Can delete a task by pressing the delete button and it deletes that task using your specific username
 - Mark it as completed and it will update it to true
