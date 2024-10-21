@@ -83,6 +83,8 @@ Make sure all naming conventions are accurate when making database and tables ot
 
 ## 6. Database Setup <a name="database-setup"></a>
 
+PgAdmin4 Password for Taskdb is 1234
+
 ```bash
 # Database Setup
 1. Install PostgreSQL: `sudo apt-get install postgresql`
