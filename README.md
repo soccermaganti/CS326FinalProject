@@ -85,6 +85,19 @@ Make sure all naming conventions are accurate when making database and tables ot
 
 PgAdmin4 Password for Taskdb is 1234
 
+// Important
+Postgres SQL Server (tasked)
+Username: postgres
+Password: 1234
+Host: localhost
+
+How to start localhost: 
+- node HomePage/app.js
+
+View database: \l or to make it easier go on pgAdmin to see the database graphically.
+
+
+
 ```bash
 # Database Setup
 1. Install PostgreSQL: `sudo apt-get install postgresql`
